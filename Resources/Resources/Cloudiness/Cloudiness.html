@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Visualization Dashboard</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+    <nav>
+        <p>Latitude</p>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Plots</a>
+                <ul>
+                    <li><a href="Temperature/Temperature.html">Temperature</a></li>
+                    <li><a href="Humidity/Humidity.html">Humidity</a></li>
+                    <li><a href="Cloudiness/Cloudiness.html">Cloudiness</a></li>
+                    <li><a href="Windspeed/Windspeed.html">Windspeed </a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    
+    <div>
+        <header class="header h1">
+            <h1>Cloudiness</h1>  
+        </header>
+    </div><br>
+    <div>
+        <img src="..\assets\images\Fig3.png" alt="Max Temperature Plot"> 
+    </div><br>
+    <div>
+        <p>
+            From the graph, It is observed that there is no strong relation established between latitude and cloudiness. 
+            However, it seems that the cloud coverage tends to increase within the region from 20 to 65 degees latitude.
+        </p>
+        <br>
+        <br>
+    </div>
+        <header class="header h2">
+            <h2>Visualization</h2>
+        </header> 
+        
+    </div>
+    <hr>
+</div>
+    <div class="col-md-12">
+        <div class="main_image">
+            <div class="container">
+                <div class="row" style="padding-bottom: 30px";>
+                    <div class="col-md-4">
+                    <a hre="Humidity.html">
+                    <img class="panel" src="..\assets\images\Fig2.png" alt="Humidity plot"></a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="Temperature.html">
+                        <img class="panel" src="..\assets\images\Fig1.png" alt="Cloudiness plot"></a>
+                    </div>
+                    <div class="col-md-4">
+                        <a hre="Windspeed.html">
+                        <img class="panel" src="..\assets\images\Fig4.png" alt="Wind Speed plot"></a>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+</body>
+</html>
